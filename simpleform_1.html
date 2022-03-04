@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 280px;
+            width: 500px;
+            background: yellow;
+            padding: 20px;
+        }
+        .interest--form {
+            background: white;
+            padding: 10px;
+        }
+        .interest--form h3 {
+            background: rgb(218, 102, 7);
+            color: white;
+            text-align: center;
+            margin-top: 0;
+        }
+        .interest--form--top span {
+            display: block;
+            margin: 20px 0;
+        }
+        .interest--form--top span input {
+            float: right;
+            height: 20px;
+            width: 370px;
+        }
+        .button--form button:first-child{
+            margin-left: 100px;
+        }
+        .interest--form--bottom span {
+            display: block;
+            margin: 10px 0;
+        }
+        .interest--form--bottom span input:first-child  {
+            margin-left: 100px;
+        }
+        .interest--form--bottom--span input:first-child {
+            margin-left: 61px;
+        }
+        .check {
+            margin-left: 43px;
+        }
+        .interest--form--top span label {
+            color: rgb(12, 152, 207);
+        }
+        .interest--form--bottom span label:first-child {
+            color: rgb(12, 152, 207);
+        }
+        .button--form button {
+            margin: 10px;
+            background: rgb(8, 8, 8);
+            color: wheat;
+        }
+        .studen--form {
+            height: 500px;
+            width: 500px;
+            background: yellow;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .studen--form h3 {
+            background: greenyellow;
+            color: blue;
+            margin-top: 0;
+        }
+        .studen--form span {
+            display: block;
+            margin-bottom: 20px;
+        }
+        .studen--form label:first-child {
+            color: blue;
+        }
+        .studen--form input {
+            
+            margin-left: 50px;
+        }
+        .studen--form input {
+            width: 235px;
+        }
+        .studen--form select {
+            margin-left: 90px;
+        }
+        .studen--form textarea {
+            margin-left: 70px;
+        }
+        .form--button button {
+            background: rgb(8, 8, 8);
+            color: wheat;
+        }
+        .form--button button:first-child {
+            margin-left: 118px;
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="interest--form">
+            <h3>SỞ THÍCH CỦA BẠN</h3>
+            <form action="">
+                <div class="interest--form--top">
+                    <span>
+                        <label for="">Họ và tên</label>
+                        <input type="text" name="yourname">
+                    </span>
+                    <span>
+                        <label for="">Email</label>
+                        <input type="text" name="email">
+                    </span>
+                </div>
+                <div class="interest--form--bottom">
+                    <span>
+                        <label for="">Sở thích</label>
+                        <input type="checkbox" name="hobby" class="check">
+                        <label for="">Thể thao</label>
+                        <input type="checkbox" name="hobby">
+                        <label for="">Âm nhạc</label>
+                        <input type="checkbox" name="hobby">
+                        <label for="">Đọc sách</label>
+                    </span>
+                    <span class="interest--form--bottom--span">
+                        <input type="checkbox" name="hobby">
+                        <label for="">Lướt web</label>
+                        <input type="checkbox" name="hobby">
+                        <label for="">Chơi game</label>
+                        <input type="checkbox" name="hobby">
+                        <label for="">Điện ảnh</label>
+                    </span>
+                    <span class="interest--form--bottom--span">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Du lịch</label>
+                    </span>
+                </div>
+                <div class="button--form">
+                    <button type="submit">Gửi thông tin</button>
+                    <button type="reset">Nhập lại</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="studen--form">
+        <h3>ĐĂNG KÝ HỌC VIÊN</h3>
+        <span>
+            <label for="">Họ và tên</label>
+            <input type="text" name="name">
+        </span>
+        <span>
+            <label for="">Ngày sinh</label>
+            <input type="text" name="birthday">
+        </span>
+        <span>
+            <label for="">Giới tính</label>
+            <input type="radio" name="sex" checked style="width: 10px;">
+            <label for="">Nam</label>
+            <input type="radio" name="sex" style="width: 10px;">
+            <label for="">Nữ</label>
+        </span>
+        <span>
+            <label for="">Điạ chỉ</label>
+            <textarea name="address" cols="30" rows="10"></textarea>
+        </span>
+        <span>
+            <label for="">Lớp</label>
+            <select name="class" id="">
+                <option value="">-Chọn lớp-</option>
+                <option value="">Lớp 1</option>
+                <option value="">Lớp 2</option>
+                <option value="">Lớp 3</option>
+            </select>
+        </span>
+        <span>
+            <label for="">Email</label>
+            <input type="email" name="email" style="margin-left: 75px;">
+        </span>
+        <span>
+            <label for="">Điện thoại</label>
+            <input type="text" name="phone">
+        </span>
+        <div class="form--button">
+            <button type="submit">Đăng nhập</button>
+            <button type="reset">Nhập lại</button>
+        </div>
+    </div>
+</body>
+</html>
