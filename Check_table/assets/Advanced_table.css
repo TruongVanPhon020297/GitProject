@@ -1,0 +1,88 @@
+.top .table--first {
+  width: 50%;
+}
+
+.top .table--first tr:first-child {
+  background: yellow;
+}
+
+.top .table--first--white th {
+  background: yellow;
+}
+
+.top .table--first--white td {
+  height: 70px;
+  width: 100px;
+}
+
+.top .table--first--white td:nth-child(even) {
+  background: black;
+}
+
+.top .table--first--black th {
+  background: yellow;
+}
+
+.top .table--first--black td {
+  height: 70px;
+  width: 100px;
+}
+
+.top .table--first--black td:nth-child(odd) {
+  background: black;
+}
+
+.bottom {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.bottom .table--second {
+  width: 50%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.bottom .table--second caption {
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+}
+
+.bottom .table--second .boder--none td {
+  border: none;
+}
+
+.bottom .table--second tr th {
+  background: #ff8800;
+  color: white;
+}
+
+.bottom .table--second tr th:first-child {
+  background: red;
+}
+
+.bottom .table--second tr th:last-child {
+  background: blue;
+}
+
+.bottom .table--second tr td {
+  height: 70px;
+  width: 100px;
+  border: 3px solid #c4acac;
+}
+
+.bottom .table--second tr td:first-child {
+  color: red;
+}
+
+.bottom .table--second tr td:last-child {
+  color: blue;
+}
+
+.bottom .table--second tr td sub {
+  color: black;
+  font-size: 10px;
+}
+/*# sourceMappingURL=Advanced_table.css.map */
