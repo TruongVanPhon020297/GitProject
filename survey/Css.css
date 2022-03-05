@@ -1,0 +1,88 @@
+.researchsurvey {
+    width: 100%;
+    height: auto;
+}
+.researchsurvey--tittle {
+    width: 100%;
+    border-bottom: 1px solid burlywood;       
+}
+.researchsurvey--tittle h3{
+    font-weight: normal;
+    font-size: 160%;
+    margin: 0 0 5px 0;
+    clear: left;
+}
+.researchsurvey--tittle P {
+    font-size: 95%;
+    line-height: 135%;
+    color: #555;
+    margin: 0 0 10px 0;
+}
+.researchsurvey--form,.researchsurvey--form--range,.researchsurvey--form--range--top,.researchsurvey--form--gender {
+    width: 100%;
+}
+.researchsurvey--form--range--top select {
+    width: 50%;
+}
+.researchsurvey--form--gender--top {
+    width: 100%;
+} 
+.researchsurvey--form--gender--top span{
+    display: block;
+    margin: 10px;
+}
+.researchsurvey--form--what,.researchsurvey--form--what--top {
+    width: 100%;
+}
+.researchsurvey--form--what--top p {
+    margin: 0;
+}
+.researchsurvey--form--what--top p input:first-child {
+    width: 70px;
+}
+.researchsurvey--form--what--top p input{
+    width: 20px;
+}
+.researchsurvey--form--what--top p span:first-child {
+    margin-left: 10px;
+}
+.researchsurvey--form--what--top p span {
+    font-size: 12px;
+    margin: 0 30px;
+}
+.researchsurvey--form--textarea {
+    width: 100%;
+}
+.researchsurvey--form--textarea textarea {
+    width: 50%;
+}
+.researchsurvey--form--table {
+    width: 100%;
+}
+.researchsurvey--form--table table {
+    width: 50%;
+    margin-top: 20px;
+}
+.researchsurvey--form--table table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+.researchsurvey--form--table table td {
+    text-align: center;
+}
+.researchsurvey--form--table table th:first-child {
+    text-align: left;
+}
+.researchsurvey--form--table table td label {
+    display: block;
+}
+.color {
+    background: rgb(134, 130, 130);
+}
+button {
+    margin-top: 10px;
+}
+.researchsurvey--form--table table caption {
+    text-align: left;
+}
